@@ -1,0 +1,49 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+venv/
+env/
+ENV/
+*.egg-info/
+dist/
+build/
+
+# Jupyter
+.ipynb_checkpoints/
+*.ipynb
+
+# 数据文件（根据需要调整）
+data/external/*.csv
+data/haitang_local/*.csv
+data/haitang_local/*.xlsx
+
+# 输出文件
+outputs/tables/*.csv
+outputs/tables/*.txt
+outputs/figs/*.png
+outputs/figs/*.pdf
+outputs/models/*.txt
+outputs/models/*.pkl
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# macOS
+.DS_Store
+
+# Windows
+Thumbs.db
+
+# 保留目录结构（通过保留 .gitkeep）
+!data/external/.gitkeep
+!data/haitang_local/.gitkeep
+!outputs/tables/.gitkeep
+!outputs/figs/.gitkeep
+!outputs/models/.gitkeep
